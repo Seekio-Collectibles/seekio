@@ -18,8 +18,8 @@ If you just want to get the app running quickly to test it out, first install
 [Node.js](https://nodejs.org/) and [Yarn](https://yarnpkg.com/), and follow along:
 
 ```sh
-git clone git@github.com:sharetribe/ftw-daily.git      # clone this repository
-cd ftw-daily/                                          # change to the cloned directory
+git clone https://github.com/Seekio-Collectibles/seekio.git      # clone this repository
+cd seekio/                                          # change to the cloned directory
 yarn install                                                   # install dependencies
 yarn run config                                                # add the mandatory env vars to your local config
 yarn run dev                                                   # start the dev server, this will open a browser in localhost:3000
@@ -34,7 +34,7 @@ For more information of the configuration, see the
 reference in Flex Docs.
 
 ### For Windows users
-
+# This has already been done for seekio, but if you're working on a non-Windows OS, you may need to change `set` back to `export`
 Change `export` to `set` in the package.json file if you're using Windows/DOS. You need to do the
 change to "dev" and "dev-sever" commands.
 
